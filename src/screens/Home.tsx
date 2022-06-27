@@ -1,10 +1,13 @@
 import React from 'react';
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
+import {ScreenWrapper} from '../components/atoms';
 
 export const Home: React.FC = () => {
   return (
     <>
-      <View></View>
+      <ScreenWrapper>
+        <Text>Home Screen</Text>
+      </ScreenWrapper>
     </>
   );
 };
