@@ -19,7 +19,7 @@ const handleIconName = (routeName: string) => {
   return 'rocket';
 };
 
-export const Icons: React.FC<IconProps> = props => {
+export const TabIcon: React.FC<IconProps> = props => {
   return (
     <Icon
       name={handleIconName(props.routeName)}
